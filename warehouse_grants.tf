@@ -291,7 +291,7 @@ resource "snowflake_grant_privileges_to_account_role" "fivetran_xs_wh" {
   account_role_name = each.key
   on_account_object {
     object_type = "WAREHOUSE"
-    object_name = snowflake_warehouse.warehouse["FIVETRAN_XS_WH"].name
+    object_name = snowflake_warehouse.warehouse["fivetran_xs"].name
   }
 }
 
@@ -306,7 +306,7 @@ resource "snowflake_grant_privileges_to_account_role" "fivetran_xs_wh" {
 #   account_role_name = each.key
 #   on_account_object {
 #     object_type = "WAREHOUSE"
-#     object_name = snowflake_warehouse.warehouse["LOOKER_XS_WH"].name
+#     object_name = snowflake_warehouse.warehouse["looker_xs_wh"].name
 #   }
 # }
 
