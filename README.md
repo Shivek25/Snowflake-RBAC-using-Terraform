@@ -2,6 +2,7 @@
 
 This project implements a fully automated **Role-Based Access Control (RBAC)** architecture for Snowflake using **Terraform** and **HashiCorp Configuration Language (HCL)**. It enables scalable, secure, and auditable access management for data platforms by declaratively defining and provisioning databases, schemas, roles, warehouses, and privileges.
 
+- [Project Video](https://www.linkedin.com/feed/update/urn:li:activity:7328699160159801344/)
 ---
 
 ## 🔧 Technologies & Tools Used
